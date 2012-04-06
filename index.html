@@ -1,14 +1,231 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <title>Ambition</title>
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-  <!--[if IE]>
-      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <![endif]-->
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ambition</title>
+    <link rel="stylesheet" href="stylesheets/grid.css" media="screen, projection" />
+    <!--[if IE]>
+    <link href="stylesheets/ie-grid.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" />
+    <link href="stylesheets/print.css" media="print" rel="stylesheet" />
+    <!--[if IE]>
+    <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+    <nav>
+    <h1><a href="#">Ambition</a></h1>
+    </nav>
+    <aside id="authentication">
+    Logged in as <a href="#">robertaudiisawesome</a>
+    <a href="#" class="logout">Log out</a>
+    </aside>
+    </header>
+
+    <div role="main" class="container">
+      <div class="row">
+        <!--Sidebar-->
+        <aside id="sidebar" class="twocol">
+        <ul>
+          <li><a href="#">Posts</a>
+          <ul>
+            <li><a href="#">Manage posts</a></li>
+            <li><a href="#">Add post</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Pages</a>
+          <ul>
+            <li><a href="#">Manage pages</a></li>
+            <li><a href="#">Add page</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Users</a>
+          <ul>
+            <li><a href="#">Manage users</a></li>
+            <li><a href="#">Add user</a></li>
+          </ul>
+          </li>
+        </ul>
+        </aside>
+
+        <section id="main-content" class="tencol last">
+        <div class="row">
+          <div class="box sixcol">
+            <header>
+            <h1>Box 1</h1>
+            </header>
+            <section class="box-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+          </div>
+
+          <div class="box sixcol last">
+            <header>
+            <h1>Box 2</h1>
+            </header>
+            <section class="box-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box twelvecol">
+            <header>
+              <h1>Tables</h1>
+            </header>
+            <section class="box-content">
+              <table border="0">
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Date</th>
+                  <th>Operations</th>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">This is the title</a></td>
+                  <td>Admin</td>
+                  <td>3 days ago</td>
+                  <td><a href="#"><img src="images/famfamfam/page_edit.png" alt="Edit Page" /></a><a href="#"><img src="images/famfamfam/page_delete.png" alt="Delete Page" /></a></td>
+                </tr>
+              </table>
+              <ul class="pagination">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li class="current">5</li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">Next</a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="box twelvecol">
+            <header>
+              <h1>Forms</h1>
+            </header>
+            <section class="box-content">
+              <form action="" method="get" accept-charset="utf-8">
+                <p>
+                  <label for="textfield">Textfield</label>
+                  <input type="text" name="textfield" id="textfield" value="" class="full-width" />
+                </p>
+                <p>
+                  <label for="passwordfield">Passwordfield</label>
+                  <input type="password" name="passwordfield" id="passwordfield" value="" class="full-width" />
+                </p>
+                <p>
+                  <label for="textarea">Textarea</label>
+                  <textarea name="textarea" id="textarea"></textarea>
+                </p>
+                <p>
+                  <input type="checkbox" name="checkboxes" id="checkbox1" value="checkbox1" />
+                  <label for="checkbox1">Checkbox 1</label>
+                  <input type="checkbox" name="checkboxes" id="checkbox2" value="checkbox2" />
+                  <label for="checkbox2">Checkbox 2</label>
+                </p>
+                <p>
+                  <input type="radio" name="radiobuttons" id="radio1" value="radio1" />
+                  <label for="radio1">Radio 1</label>
+                  <input type="radio" name="radiobuttons" id="radio2" value="radio2" />
+                  <label for="radio2">Radio 2</label>
+                </p>
+                <p>
+                  <select>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option2">Option 3</option>
+                    <option value="option2">Option 4</option>
+                  </select>
+                </p>
+                <p>
+                  <input type="submit" name="button" id="button" value="button" />
+                </p>
+              </form>
+            </section>
+          </div>
+        </div>
+        </section>
+      </div>
+    </div>
+
+    <footer id="main-footer">
+      <div class="row">
+        <p class="twelvecol last">Copyright &copy;2012, Made with tender love by Aziz Light</p>
+      </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/script.js"></script>
+  </body>
 </html>
